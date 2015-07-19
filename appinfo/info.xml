@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>spreadsheets</id>
+    <name>Spreadsheets</name>
+    <description>App for editing and viewing basic spreadsheets</description>
+    <licence>AGPL</licence>
+    <author>Milann Veldink</author>
+    <version>0.0.1</version>
+    <namespace>Spreadsheets</namespace>
+    <category>other</category>
+    <dependencies>
+        <owncloud min-version="8" />
+    </dependencies>
+</info>

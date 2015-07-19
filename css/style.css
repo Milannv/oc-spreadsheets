@@ -1,0 +1,64 @@
+#filestable {
+    top: 0px !important;
+}
+#loadingcontent
+{
+    font-size: 16px;
+    color: #888;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+a.name.sort.columntitle {
+    margin-left: 0px;
+}
+.pagination {
+    padding: 10px 0;
+}
+.pagination a {
+    border: 1px solid grey;
+    padding: 2px 5px;
+    margin: 3px;
+}
+.pagination a.active {
+    background-color: #1d2d44;
+    color: #FFF;
+}
+#spreadsheet-container,
+#spreadsheet-editor {
+    width: 100%;
+}
+.spreadsheet-edit-navigation,
+.pagination {
+    margin: 15px 10px 10px 10px;
+    display: inline-block;
+}
+.spreadsheet-edit-navigation li {
+    border: 1px solid #f1f1f1;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.spreadsheet-edit-navigation li:hover {
+    cursor: pointer;
+}
+.editor-top-container {
+    width: 100%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+ul[data-list-type="metadata-list"] {
+    display: none;
+    padding: 0 12px;
+    top: 70px;
+}
+li[data-list-type] {
+    font-weight: bold;
+}
+li[data-list-type] span {
+    font-weight: 100;
+}
